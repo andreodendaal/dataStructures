@@ -1,9 +1,11 @@
 import timeit
 
+
 def listBuildConcatenation():
     l = []
     for i in range(1000):
         l = l + [i]
+
 
 def time_listBuildConcatenation():
     SETUP_CODE = ''' 

@@ -1,5 +1,4 @@
-
-# simple sum of numbers
+# Simple sum of numbers, non-recursive:
 
 def listSum(numList):
     theSum = 0
@@ -7,12 +6,11 @@ def listSum(numList):
         theSum = theSum + i
     return theSum
 
+# TEST
 # print(listSum([1,3,5,7,9]))
 
 
-# recursive
-
-
+# Simple sum of numbers,recursive:
 def listSumRecursive(numList):
     """ (numList) -> list
 

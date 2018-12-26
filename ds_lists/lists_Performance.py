@@ -66,8 +66,7 @@ def listBuildRange():
     l = list(range(1000))
 
 def time_listBuildRange():
-    SETUP_CODE = ''' 
-from __main__ import listBuildRange'''
+    SETUP_CODE = '''from __main__''' + ''' import listBuildRange'''
 
     TEST_CODE = '''listBuildRange()'''
 
@@ -83,7 +82,7 @@ from __main__ import listBuildRange'''
 
 
 if __name__ == "__main__":
-    time_listBuildConcatenation()
-    time_listBuildAppend()
-    time_listBuildComprehension()
+    #time_listBuildConcatenation()
+    #time_listBuildAppend()
+    #time_listBuildComprehension()
     time_listBuildRange()

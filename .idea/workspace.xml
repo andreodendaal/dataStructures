@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b63be2ca-9d47-4038-8fc2-c194302ab507" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataStructures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/lists_Performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/lists_Performance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion/recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/recursion.py" afterDir="false" />
-    </list>
+    <list default="true" id="b63be2ca-9d47-4038-8fc2-c194302ab507" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,16 +79,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1045" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,7 +111,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,6 +307,7 @@
       <workItem from="1545324629105" duration="761000" />
       <workItem from="1545407663355" duration="1206000" />
       <workItem from="1545671361377" duration="2454000" />
+      <workItem from="1545711835766" duration="643000" />
     </task>
     <servers />
   </component>
@@ -334,12 +329,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4444000" />
+    <option name="totallyTimeSpent" value="5087000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1045" y="-1088" width="1936" height="1056" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.12781955" />
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.13082583" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76cda884-a5bd-4ca0-bc7c-08d17eda9bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ds_lists/removeEven.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/array_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/ds_array/array_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/array_performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/ds_array/array_performance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_lists/list_merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ds_lists/removeEven.py" beforeDir="false" afterPath="$PROJECT_DIR$/ds_lists/removeEven.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,16 +13,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python$Doctest_mergeLists.coverage" NAME="Doctest mergeLists Coverage Results" MODIFIED="1546818170302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ds_lists" />
     <SUITE FILE_PATH="coverage/python$Doctest_removeEven.coverage" NAME="Doctest removeEven Coverage Results" MODIFIED="1546813892713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ds_lists" />
     <SUITE FILE_PATH="coverage/python$Doctest_reomoveEven_listcomprehension.coverage" NAME="Doctest reomoveEven_listcomprehension Coverage Results" MODIFIED="1546815165407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ds_lists" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ds_lists/removeEven.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="360">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ds_lists/lists_Performance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ds_lists/list_merge.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -43,6 +65,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ds_lists/removeEven.py" />
+        <option value="$PROJECT_DIR$/ds_lists/list_merge.py" />
       </list>
     </option>
   </component>
@@ -94,7 +117,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctest reomoveEven_listcomprehension">
+  <component name="RunManager" selected="Python tests.Doctest mergeLists">
+    <configuration name="Doctest mergeLists" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ds_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ds_lists/list_merge.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="mergeLists" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="Doctest removeEven" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,6 +177,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Doctest mergeLists" />
         <item itemvalue="Python tests.Doctest reomoveEven_listcomprehension" />
         <item itemvalue="Python tests.Doctest removeEven" />
       </list>
@@ -150,38 +193,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546813162331</updated>
-      <workItem from="1546813165494" duration="2075000" />
+      <workItem from="1546813165494" duration="3815000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctest_removeEven - 2019.01.06 at 14h 30m 44s.xml">
-      <configuration name="Doctest removeEven" configurationId="tests" />
+    <history-entry file="Doctest_mergeLists - 2019.01.06 at 15h 36m 14s.xml">
+      <configuration name="Doctest mergeLists" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_removeEven - 2019.01.06 at 14h 31m 33s.xml">
-      <configuration name="Doctest removeEven" configurationId="tests" />
+    <history-entry file="Doctest_mergeLists - 2019.01.06 at 15h 36m 40s.xml">
+      <configuration name="Doctest mergeLists" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_reomoveEven_listcomprehension - 2019.01.06 at 14h 50m 00s.xml">
-      <configuration name="Doctest reomoveEven_listcomprehension" configurationId="tests" />
+    <history-entry file="Doctest_mergeLists - 2019.01.06 at 15h 38m 26s.xml">
+      <configuration name="Doctest mergeLists" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_reomoveEven_listcomprehension - 2019.01.06 at 14h 50m 47s.xml">
-      <configuration name="Doctest reomoveEven_listcomprehension" configurationId="tests" />
+    <history-entry file="Doctest_mergeLists - 2019.01.06 at 15h 38m 57s.xml">
+      <configuration name="Doctest mergeLists" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_reomoveEven_listcomprehension - 2019.01.06 at 14h 51m 05s.xml">
-      <configuration name="Doctest reomoveEven_listcomprehension" configurationId="tests" />
+    <history-entry file="Doctest_mergeLists - 2019.01.06 at 15h 39m 58s.xml">
+      <configuration name="Doctest mergeLists" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_reomoveEven_listcomprehension - 2019.01.06 at 14h 51m 31s.xml">
-      <configuration name="Doctest reomoveEven_listcomprehension" configurationId="tests" />
+    <history-entry file="Doctest_mergeLists - 2019.01.06 at 15h 41m 02s.xml">
+      <configuration name="Doctest mergeLists" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_reomoveEven_listcomprehension - 2019.01.06 at 14h 51m 44s.xml">
-      <configuration name="Doctest reomoveEven_listcomprehension" configurationId="tests" />
+    <history-entry file="Doctest_mergeLists - 2019.01.06 at 15h 41m 30s.xml">
+      <configuration name="Doctest mergeLists" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_reomoveEven_listcomprehension - 2019.01.06 at 14h 52m 45s.xml">
-      <configuration name="Doctest reomoveEven_listcomprehension" configurationId="tests" />
+    <history-entry file="Doctest_mergeLists - 2019.01.06 at 15h 41m 54s.xml">
+      <configuration name="Doctest mergeLists" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_mergeLists - 2019.01.06 at 15h 42m 34s.xml">
+      <configuration name="Doctest mergeLists" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_mergeLists - 2019.01.06 at 15h 42m 50s.xml">
+      <configuration name="Doctest mergeLists" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2075000" />
+    <option name="totallyTimeSpent" value="3815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -198,7 +247,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3015873" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34325397" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -216,10 +265,27 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ds_lists/lists_Performance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ds_lists/removeEven.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="360">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds_lists/list_merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

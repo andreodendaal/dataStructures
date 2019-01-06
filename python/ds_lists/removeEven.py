@@ -17,10 +17,10 @@ def removeEven(p_list):
     return unevenList
 
 
-def reomoveEven_listcomprehension(p_list):
+def removeEven_listcomprehension(p_list):
 
     """
-    >>> reomoveEven_listcomprehension([1,2,4,5,10,6,3])
+    >>> removeEven_listcomprehension([1,2,4,5,10,6,3])
     [1, 5, 3]
 
     :param p_list:

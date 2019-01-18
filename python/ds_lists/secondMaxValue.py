@@ -9,9 +9,15 @@ def findSecondMaximum(lst):
     >>> findSecondMaximum([4, 2, 1, 5, 0])
     4
 
+    >>> findSecondMaximum([5])
+    False
+
     :param lst:
     :return:
     """
 
     lst.sort(reverse=True)
-    return lst[1]
+    if len(lst) < 2:
+        return False
+    else:
+        return lst[1]

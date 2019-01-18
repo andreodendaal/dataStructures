@@ -6,7 +6,12 @@ def findSecondMaximum(lst):
     >>> findSecondMaximum([9,2,3,6])
     6
 
+    >>> findSecondMaximum([4, 2, 1, 5, 0])
+    4
 
     :param lst:
     :return:
     """
+
+    lst.sort(reverse=True)
+    return lst[1]
